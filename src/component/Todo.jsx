@@ -74,7 +74,7 @@ export default function Todo() {
                   handleSubmit={handleSubmit}
                 />
                 <p className="card-text text-center mt-3">
-                  Tareas pendientes {count} de {state.length}
+                  Tareas pendientes <b>{count}</b> de <b>{state.length}</b>
                   <button
                     className="btn btn-danger pt-0 ml-3"
                     onClick={deleteTaskDone}
